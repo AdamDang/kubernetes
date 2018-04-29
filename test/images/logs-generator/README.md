@@ -8,13 +8,13 @@ Each line can be later uniquely identified to ensure logs delivery.
 
 ## Usage
 
-Tool is parametrized with the total number of number that should be generated and the duration of
+Tool is parameterized with the total number of number that should be generated and the duration of
 the generation process. For example, if you want to create a throughput of 100 lines per second
 for a minute, you set total number of lines to 6000 and duration to 1 minute.
 
 Parameters are passed through environment variables. There are no defaults, you should always 
-set up container parameters. Total number of line is parametrized through env variable
-`LOGS_GENERATOR_LINES_TOTAL` and duration in go format is parametrized through env variable
+set up container parameters. Total number of line is parameterized through env variable
+`LOGS_GENERATOR_LINES_TOTAL` and duration in go format is parameterized through env variable
 `LOGS_GENERATOR_DURATION`.
 
 Inside the container all log lines are written to the stdout.
