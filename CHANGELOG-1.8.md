@@ -1626,7 +1626,7 @@ that they span multiple clusters. Creating a Federated HPA targeting
 multiple clusters ensures that cluster-level autoscalers are
 consistently deployed across those clusters, and dynamically managed
 to ensure that autoscaling can occur optimially in all clusters,
-within a set of global constraints on the the total number of replicas
+within a set of global constraints on the total number of replicas
 permitted across all clusters.  If replicas are not
 required in some clusters due to low system load or insufficient quota
 or capacity in those clusters, additional replicas are made available
